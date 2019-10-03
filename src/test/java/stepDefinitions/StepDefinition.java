@@ -1,11 +1,13 @@
 package stepDefinitions;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.And;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
+
+import java.util.List;
 
 @RunWith(Cucumber.class)
 public class StepDefinition {
@@ -16,10 +18,11 @@ public class StepDefinition {
         System.out.println("Navigated to login url");
     }
 
-    @When("^User login into application with username and password$")
-    public void user_login_into_application_with_username_and_password() throws Throwable {
+    @When("^User login into application with \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void user_login_into_application_with_something_and_something(String strArg1, String strArg2) throws Throwable {
 
-        System.out.println("Logged in success");
+        System.out.println("Logged in with " + strArg1 + " success");
+        System.out.println("Logged in with " + strArg2 + " success");
     }
 
     @Then("^Home page is displayed$")
@@ -28,10 +31,20 @@ public class StepDefinition {
         System.out.println("Home page is displayed");
     }
 
-    @And("^Cards are displayed$")
-    public void cards_are_displayed() throws Throwable {
+    @Then("^Cards displayed are \"([^\"]*)\"$")
+    public void cards_displayed_are(String arg1) throws Throwable {
 
-        System.out.println("Cards are displayed");
+        System.out.println("Cards displayed are: " + arg1);
     }
 
+    @When("^User sign up with following details$")
+    public void user_sign_up_with_following_details(DataTable dataTable) throws Throwable {
+
+        List<List<String>> obj = dataTable.raw();
+        System.out.println(obj.get(0).get(0));
+        System.out.println(obj.get(0).get(1));
+        System.out.println(obj.get(0).get(2));
+        System.out.println(obj.get(0).get(3));
+        System.out.println(obj.get(0).get(4));
+    }
 }
