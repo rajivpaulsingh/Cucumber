@@ -25,6 +25,13 @@ public class StepDefinition {
         System.out.println("Logged in with " + strArg2 + " success");
     }
 
+    @When("^User login into application with user(\\d+) and pass(\\d+)$")
+    public void user_login_into_application_with_user_and_pass(int arg1, int arg2) throws Throwable {
+
+        System.out.println(arg1);
+        System.out.println(arg2);
+    }
+
     @Then("^Home page is displayed$")
     public void home_page_is_displayed() throws Throwable {
 
@@ -47,4 +54,11 @@ public class StepDefinition {
         System.out.println(obj.get(0).get(3));
         System.out.println(obj.get(0).get(4));
     }
+
+    @When("^User login in to application with (.+) and (.+)$")
+    public void user_login_into_application_with_and(String username, String password) throws Throwable {
+        System.out.println(username);
+        System.out.println(password);
+    }
+
 }
