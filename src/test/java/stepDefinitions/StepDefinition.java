@@ -12,6 +12,24 @@ import java.util.List;
 @RunWith(Cucumber.class)
 public class StepDefinition {
 
+    @Given("^Validate the browser$")
+    public void validate_the_browser() throws Throwable {
+
+        System.out.println("Open the browser");
+    }
+
+    @When("^Browser is triggered$")
+    public void browser_is_triggered() throws Throwable {
+
+        System.out.println("Browser is triggered");
+    }
+
+    @Then("^Check if the browser is started$")
+    public void check_if_the_browser_is_started() throws Throwable {
+
+        System.out.println("Browser has started");
+    }
+
     @Given("^User is on Netbanking landing page$")
     public void user_is_on_netbanking_landing_page() throws Throwable {
 

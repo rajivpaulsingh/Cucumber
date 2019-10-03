@@ -1,5 +1,10 @@
 Feature: Application Login
 
+  Background:
+    Given Validate the browser
+    When Browser is triggered
+    Then Check if the browser is started
+
   @RegTest
   Scenario: Home page default login
     Given User is on Netbanking landing page
