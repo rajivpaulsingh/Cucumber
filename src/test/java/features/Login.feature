@@ -24,6 +24,7 @@ Feature: Application Login
     When User login into application with <Username> and <Password>
     Then Home page is displayed
     And Cards displayed are "true"
+
     Examples:
       |Username|Password|
       |user1   |pass1   |
