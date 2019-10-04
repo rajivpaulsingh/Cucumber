@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/java/features",
         glue = "stepDefinitions",
         tags = "@RegTest, @SmokeTest, @MobileTest",
+        strict = true,
         plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "junit:target/cukes.xml"})
 public class TestRunner {
 }

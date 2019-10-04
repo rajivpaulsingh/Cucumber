@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9b6960a-ff1b-4bb2-b1d5-66334cfa70dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cukes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberOptions/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberOptions/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinition.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,25 +22,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="375">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/cukes.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -78,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
@@ -109,13 +122,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/features/Login.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/Account.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -213,7 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570213398213" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570219718254" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -308,12 +321,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.10.03 at 14h 11m 19s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.10.03 at 14h 13m 07s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRunner - 2019.10.03 at 14h 14m 06s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
@@ -336,6 +343,12 @@
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestRunner - 2019.10.04 at 11h 21m 53s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.10.04 at 11h 23m 22s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.10.04 at 11h 28m 45s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -374,13 +387,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -408,7 +414,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#114#115#0" expanded="true" />
@@ -432,13 +438,23 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/cukes.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.261863">
-    <testcase classname="Application Login" name="Home page default login" time="0.254831">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.119413">
+    <testcase classname="Application Login" name="Home page default login" time="0.116202">
         <system-out>
             <![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
@@ -12,7 +12,7 @@ And Cards displayed are "true"..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.000699">
+    <testcase classname="Application Login" name="Home page default login" time="0.000547">
         <system-out>
             <![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
@@ -24,7 +24,7 @@ And Cards displayed are "false".............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.004093">
+    <testcase classname="Application Login" name="Home page default login" time="0.001685">
         <system-out>
             <![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
@@ -36,7 +36,7 @@ And Cards displayed are "false".............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.001509">
+    <testcase classname="Application Login" name="Home page default login" time="0.000578">
         <system-out>
             <![CDATA[Given User is on Netbanking landing page....................................passed
 When User login into application with "singh" and "4321"....................passed
@@ -45,7 +45,7 @@ And Cards displayed are "false".............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.000731">
+    <testcase classname="Application Login" name="Home page default login" time="0.000401">
         <system-out>
             <![CDATA[Given User is on Netbanking landing page....................................passed
 When User sign up with following details....................................passed
