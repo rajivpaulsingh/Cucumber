@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/features",
         glue = "stepDefinitions",
-        tags = "@RegTest")
+        tags = "@RegTest, @SmokeTest, @MobileTest")
 public class TestRunner {
 }

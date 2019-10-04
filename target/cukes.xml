@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0">
+    <testcase classname="Portal Login" name="Home page default login" time="0">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given validate the browser..................................................undefined
+When Browser is triggered...................................................undefined
+Then check if browser is started............................................undefined
+Given User is on NetBanking landing page....................................undefined
+When User login into application with "jin" and password "1234".............undefined
+Then Home page is populated.................................................undefined
+And Cards displayed are "true"..............................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="0">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given validate the browser..................................................undefined
+When Browser is triggered...................................................undefined
+Then check if browser is started............................................undefined
+Given User is on NetBanking landing page....................................undefined
+When User login into application with "john" and password "4321"............undefined
+Then Home page is populated.................................................undefined
+And Cards displayed are "false".............................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="0">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given validate the browser..................................................undefined
+When Browser is triggered...................................................undefined
+Then check if browser is started............................................undefined
+Given User is on NetBanking landing page....................................undefined
+When User login into application with "john" and password "4321"............undefined
+Then Home page is populated.................................................undefined
+And Cards displayed are "false".............................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="0">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given validate the browser..................................................undefined
+When Browser is triggered...................................................undefined
+Then check if browser is started............................................undefined
+Given User is on NetBanking landing page....................................undefined
+When User sign up with following details....................................undefined
+Then Home page is populated.................................................undefined
+And Cards displayed are "false".............................................undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>
