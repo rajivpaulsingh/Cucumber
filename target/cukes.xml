@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.117511">
-    <testcase classname="Application Account" name="Home page default login" time="0.114287">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="17.896718">
+    <testcase classname="Application Account" name="Home page default login" time="0.16228">
         <system-out>
             <![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
@@ -12,7 +12,7 @@ And Cards displayed are "true"..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Account" name="Home page default login" time="0.000455">
+    <testcase classname="Application Account" name="Home page default login" time="0.003733">
         <system-out>
             <![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
@@ -24,7 +24,7 @@ And Cards displayed are "false".............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Account" name="Home page default login" time="0.002055">
+    <testcase classname="Application Account" name="Home page default login" time="0.003767">
         <system-out>
             <![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
@@ -36,7 +36,7 @@ And Cards displayed are "false".............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.000404">
+    <testcase classname="Application Login" name="Home page default login" time="0.002611">
         <system-out>
             <![CDATA[Given User is on Netbanking landing page....................................passed
 When User login into application with "singh" and "4321"....................passed
@@ -45,12 +45,30 @@ And Cards displayed are "false".............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.00031">
+    <testcase classname="Application Login" name="Home page default login" time="0.000743">
         <system-out>
             <![CDATA[Given User is on Netbanking landing page....................................passed
 When User sign up with following details....................................passed
 Then Home page is displayed.................................................passed
 And Cards displayed are "false".............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="8.238273">
+        <system-out>
+            <![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Cucumber" vegetable...................................passed
+Then "Cucumber" results are displayed.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="9.485311">
+        <system-out>
+            <![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Brinjal" vegetable....................................passed
+And Add items to cart.......................................................passed
+And User proceed to the checkout page for purchase..........................passed
+Then Verify the selected "Brinjal" items are displayed in the checkout page.passed
 ]]>
         </system-out>
     </testcase>

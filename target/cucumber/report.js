@@ -32,21 +32,21 @@ formatter.match({
   "location": "StepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 112314866,
+  "duration": 157010533,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 42458,
+  "duration": 99437,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.check_if_the_browser_is_started()"
 });
 formatter.result({
-  "duration": 73714,
+  "duration": 167191,
   "status": "passed"
 });
 formatter.scenario({
@@ -87,7 +87,7 @@ formatter.match({
   "location": "StepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 60158,
+  "duration": 143972,
   "status": "passed"
 });
 formatter.match({
@@ -104,14 +104,14 @@ formatter.match({
   "location": "StepDefinition.user_login_into_application_with_something_and_something(String,String)"
 });
 formatter.result({
-  "duration": 1655296,
+  "duration": 4586566,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.home_page_is_displayed()"
 });
 formatter.result({
-  "duration": 56970,
+  "duration": 126940,
   "status": "passed"
 });
 formatter.match({
@@ -124,7 +124,7 @@ formatter.match({
   "location": "StepDefinition.cards_displayed_are(String)"
 });
 formatter.result({
-  "duration": 83548,
+  "duration": 144985,
   "status": "passed"
 });
 formatter.background({
@@ -153,21 +153,21 @@ formatter.match({
   "location": "StepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 52851,
+  "duration": 89769,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 48154,
+  "duration": 160415,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.check_if_the_browser_is_started()"
 });
 formatter.result({
-  "duration": 33400,
+  "duration": 129622,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "StepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 84285,
+  "duration": 97158,
   "status": "passed"
 });
 formatter.match({
@@ -225,14 +225,14 @@ formatter.match({
   "location": "StepDefinition.user_login_into_application_with_something_and_something(String,String)"
 });
 formatter.result({
-  "duration": 98875,
+  "duration": 531933,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.home_page_is_displayed()"
 });
 formatter.result({
-  "duration": 49875,
+  "duration": 2337108,
   "status": "passed"
 });
 formatter.match({
@@ -245,7 +245,7 @@ formatter.match({
   "location": "StepDefinition.cards_displayed_are(String)"
 });
 formatter.result({
-  "duration": 87892,
+  "duration": 386667,
   "status": "passed"
 });
 formatter.background({
@@ -274,21 +274,21 @@ formatter.match({
   "location": "StepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 75662,
+  "duration": 577007,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 669208,
+  "duration": 112478,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.check_if_the_browser_is_started()"
 });
 formatter.result({
-  "duration": 94099,
+  "duration": 257619,
   "status": "passed"
 });
 formatter.scenario({
@@ -341,21 +341,21 @@ formatter.match({
   "location": "StepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 47114,
+  "duration": 70351,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_sign_up_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 1008983,
+  "duration": 2480939,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.home_page_is_displayed()"
 });
 formatter.result({
-  "duration": 66192,
+  "duration": 86093,
   "status": "passed"
 });
 formatter.match({
@@ -368,7 +368,7 @@ formatter.match({
   "location": "StepDefinition.cards_displayed_are(String)"
 });
 formatter.result({
-  "duration": 93795,
+  "duration": 182431,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -380,7 +380,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 85721,
+  "duration": 191056,
   "status": "passed"
 });
 formatter.scenario({
@@ -421,7 +421,7 @@ formatter.match({
   "location": "StepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 62166,
+  "duration": 138281,
   "status": "passed"
 });
 formatter.match({
@@ -438,14 +438,14 @@ formatter.match({
   "location": "StepDefinition.user_login_into_application_with_something_and_something(String,String)"
 });
 formatter.result({
-  "duration": 106922,
+  "duration": 1189262,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.home_page_is_displayed()"
 });
 formatter.result({
-  "duration": 29472,
+  "duration": 98958,
   "status": "passed"
 });
 formatter.match({
@@ -458,11 +458,11 @@ formatter.match({
   "location": "StepDefinition.cards_displayed_are(String)"
 });
 formatter.result({
-  "duration": 62330,
+  "duration": 825899,
   "status": "passed"
 });
 formatter.after({
-  "duration": 57174,
+  "duration": 167843,
   "status": "passed"
 });
 formatter.scenario({
@@ -515,21 +515,21 @@ formatter.match({
   "location": "StepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 67232,
+  "duration": 92462,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_sign_up_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 94005,
+  "duration": 145625,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.home_page_is_displayed()"
 });
 formatter.result({
-  "duration": 48131,
+  "duration": 277185,
   "status": "passed"
 });
 formatter.match({
@@ -542,7 +542,163 @@ formatter.match({
   "location": "StepDefinition.cards_displayed_are(String)"
 });
 formatter.result({
-  "duration": 101071,
+  "duration": 227676,
+  "status": "passed"
+});
+formatter.uri("Search.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Search and place the order for vegetables",
+  "description": "",
+  "id": "search-and-place-the-order-for-vegetables",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Search for items and validate result",
+  "description": "",
+  "id": "search-and-place-the-order-for-vegetables;search-for-items-and-validate-result",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@SeleniumTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "User is on Greencart landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User search for \"Cucumber\" vegetable",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "\"Cucumber\" results are displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
+});
+formatter.result({
+  "duration": 4888654715,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cucumber",
+      "offset": 17
+    }
+  ],
+  "location": "SearchStepDefinition.user_search_for_something_vegetable(String)"
+});
+formatter.result({
+  "duration": 3314659261,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cucumber",
+      "offset": 1
+    }
+  ],
+  "location": "SearchStepDefinition.something_results_are_displayed(String)"
+});
+formatter.result({
+  "duration": 34958817,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 10,
+  "name": "Search for items and move to checkout page",
+  "description": "",
+  "id": "search-and-place-the-order-for-vegetables;search-for-items-and-move-to-checkout-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 9,
+      "name": "@SeleniumTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 11,
+  "name": "User is on Greencart landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "User search for \"Brinjal\" vegetable",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "Add items to cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "User proceed to the checkout page for purchase",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "Verify the selected \"Brinjal\" items are displayed in the checkout page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
+});
+formatter.result({
+  "duration": 3814353346,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Brinjal",
+      "offset": 17
+    }
+  ],
+  "location": "SearchStepDefinition.user_search_for_something_vegetable(String)"
+});
+formatter.result({
+  "duration": 3325611844,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchStepDefinition.add_items_to_cart()"
+});
+formatter.result({
+  "duration": 2193576563,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchStepDefinition.user_proceed_to_the_checkout_page_for_purchase()"
+});
+formatter.result({
+  "duration": 121880570,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Brinjal",
+      "offset": 21
+    }
+  ],
+  "location": "SearchStepDefinition.verify_the_selected_something_items_are_displayed_in_the_checkout_page(String)"
+});
+formatter.result({
+  "duration": 29888681,
   "status": "passed"
 });
 });
