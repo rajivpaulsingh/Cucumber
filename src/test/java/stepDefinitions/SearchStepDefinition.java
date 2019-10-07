@@ -20,7 +20,7 @@ public class SearchStepDefinition {
     public void user_is_on_greencart_landing_page() throws Throwable {
 
         driver = Base.getDriver();
-        driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+
     }
 
     @When("^User search for \"([^\"]*)\" vegetable$")
