@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import Cucumber.Automation.Base;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -9,7 +10,6 @@ import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 @RunWith(Cucumber.class)
 public class SearchStepDefinition {
@@ -19,8 +19,7 @@ public class SearchStepDefinition {
     @Given("^User is on Greencart landing page$")
     public void user_is_on_greencart_landing_page() throws Throwable {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/singh2_rajiv/Automation/Selenium/Drivers/chromedriver");
-        driver = new ChromeDriver();
+        driver = Base.getDriver();
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
     }
 

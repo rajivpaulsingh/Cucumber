@@ -3,597 +3,27 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 157010533,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Validate the browser",
-            "match": {
-              "location": "StepDefinition.validate_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 99437,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Browser is triggered",
-            "match": {
-              "location": "StepDefinition.browser_is_triggered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 167191,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Check if the browser is started",
-            "match": {
-              "location": "StepDefinition.check_if_the_browser_is_started()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 9,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-account;home-page-default-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 143972,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User is on Netbanking landing page",
-            "match": {
-              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4586566,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User login into application with \"rajiv\" and \"1234\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "rajiv",
-                  "offset": 34
-                },
-                {
-                  "val": "1234",
-                  "offset": 46
-                }
-              ],
-              "location": "StepDefinition.user_login_into_application_with_something_and_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 126940,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Home page is displayed",
-            "match": {
-              "location": "StepDefinition.home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 144985,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Cards displayed are \"true\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.cards_displayed_are(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 8,
-            "name": "@RegTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 89769,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Validate the browser",
-            "match": {
-              "location": "StepDefinition.validate_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 160415,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Browser is triggered",
-            "match": {
-              "location": "StepDefinition.browser_is_triggered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 129622,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Check if the browser is started",
-            "match": {
-              "location": "StepDefinition.check_if_the_browser_is_started()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-account;home-page-default-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 97158,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User is on Netbanking landing page",
-            "match": {
-              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 531933,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User login into application with \"singh\" and \"4321\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "singh",
-                  "offset": 34
-                },
-                {
-                  "val": "4321",
-                  "offset": 46
-                }
-              ],
-              "location": "StepDefinition.user_login_into_application_with_something_and_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2337108,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Home page is displayed",
-            "match": {
-              "location": "StepDefinition.home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 386667,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Cards displayed are \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "false",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.cards_displayed_are(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 577007,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Validate the browser",
-            "match": {
-              "location": "StepDefinition.validate_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 112478,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Browser is triggered",
-            "match": {
-              "location": "StepDefinition.browser_is_triggered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 257619,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Check if the browser is started",
-            "match": {
-              "location": "StepDefinition.check_if_the_browser_is_started()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 23,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-account;home-page-default-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 70351,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "User is on Netbanking landing page",
-            "match": {
-              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2480939,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "User sign up with following details",
-            "match": {
-              "location": "StepDefinition.user_sign_up_with_following_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "superman",
-                  "abcd",
-                  "superman@abcd.com",
-                  "Australia",
-                  "123456"
-                ],
-                "line": 26
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 86093,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "Home page is displayed",
-            "match": {
-              "location": "StepDefinition.home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 182431,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "Cards displayed are \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "false",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.cards_displayed_are(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 22,
-            "name": "@RegTest"
-          }
-        ]
-      }
-    ],
-    "name": "Application Account",
-    "description": "",
-    "id": "application-account",
-    "keyword": "Feature",
-    "uri": "Account.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 191056,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeValdiation()"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-login;home-page-default-login",
-        "after": [
-          {
-            "result": {
-              "duration": 167843,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterValdiation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 138281,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User is on Netbanking landing page",
-            "match": {
-              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1189262,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User login into application with \"singh\" and \"4321\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "singh",
-                  "offset": 34
-                },
-                {
-                  "val": "4321",
-                  "offset": 46
-                }
-              ],
-              "location": "StepDefinition.user_login_into_application_with_something_and_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 98958,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Home page is displayed",
-            "match": {
-              "location": "StepDefinition.home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 825899,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Cards displayed are \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "false",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.cards_displayed_are(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 10,
-            "name": "@MobileTest"
-          }
-        ]
-      },
-      {
-        "line": 18,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-login;home-page-default-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 92462,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User is on Netbanking landing page",
-            "match": {
-              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 145625,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User sign up with following details",
-            "match": {
-              "location": "StepDefinition.user_sign_up_with_following_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "superman",
-                  "abcd",
-                  "superman@abcd.com",
-                  "Australia",
-                  "123456"
-                ],
-                "line": 21
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 277185,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Home page is displayed",
-            "match": {
-              "location": "StepDefinition.home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 227676,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Cards displayed are \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "false",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.cards_displayed_are(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 17,
-            "name": "@SmokeTest"
-          }
-        ]
-      }
-    ],
-    "name": "Application Login",
-    "description": "",
-    "id": "application-login",
-    "keyword": "Feature",
-    "uri": "Login.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
         "line": 4,
         "name": "Search for items and validate result",
         "description": "",
         "id": "search-and-place-the-order-for-vegetables;search-for-items-and-validate-result",
+        "after": [
+          {
+            "result": {
+              "duration": 168584016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4888654715,
+              "duration": 5084105757,
               "status": "passed"
             },
             "line": 5,
@@ -605,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 3314659261,
+              "duration": 3288649698,
               "status": "passed"
             },
             "line": 6,
@@ -623,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 34958817,
+              "duration": 30004280,
               "status": "passed"
             },
             "line": 7,
@@ -652,12 +82,23 @@
         "name": "Search for items and move to checkout page",
         "description": "",
         "id": "search-and-place-the-order-for-vegetables;search-for-items-and-move-to-checkout-page",
+        "after": [
+          {
+            "result": {
+              "duration": 184468239,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3814353346,
+              "duration": 4592207733,
               "status": "passed"
             },
             "line": 11,
@@ -669,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 3325611844,
+              "duration": 3331515454,
               "status": "passed"
             },
             "line": 12,
@@ -687,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 2193576563,
+              "duration": 2159958497,
               "status": "passed"
             },
             "line": 13,
@@ -699,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 121880570,
+              "duration": 122799814,
               "status": "passed"
             },
             "line": 14,
@@ -711,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 29888681,
+              "duration": 26337516,
               "status": "passed"
             },
             "line": 15,
