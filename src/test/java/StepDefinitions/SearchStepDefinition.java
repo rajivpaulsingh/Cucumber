@@ -1,6 +1,7 @@
-package stepDefinitions;
+package StepDefinitions;
 
 import CucumberUtilities.Base;
+import PageObjects.HomePage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,6 +16,7 @@ import org.openqa.selenium.WebDriver;
 public class SearchStepDefinition {
 
     public WebDriver driver;
+    HomePage homePage;
 
     @Given("^User is on Greencart landing page$")
     public void user_is_on_greencart_landing_page() throws Throwable {
@@ -26,8 +28,8 @@ public class SearchStepDefinition {
     @When("^User search for \"([^\"]*)\" vegetable$")
     public void user_search_for_something_vegetable(String strArg1) throws Throwable {
 
-        // //tagName[@attribute='value']
-        driver.findElement(By.xpath("//input[@type='search']")).sendKeys(strArg1);
+        homePage = new HomePage(driver);
+        homePage.getSearch().sendKeys(strArg1);
         Thread.sleep(3000);
     }
 
