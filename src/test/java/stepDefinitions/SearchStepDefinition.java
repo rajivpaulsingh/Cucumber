@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import Cucumber.Automation.Base;
+import CucumberUtilities.Base;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

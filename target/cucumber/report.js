@@ -39,9 +39,8 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
 });
 formatter.result({
-  "duration": 161901421,
-  "error_message": "java.lang.NullPointerException\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:149)\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:112)\n\tat Cucumber.Automation.Base.getDriver(Base.java:18)\n\tat stepDefinitions.SearchStepDefinition.user_is_on_greencart_landing_page(SearchStepDefinition.java:22)\n\tat ✽.Given User is on Greencart landing page(Search.feature:5)\n",
-  "status": "failed"
+  "duration": 8829181803,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -53,7 +52,8 @@ formatter.match({
   "location": "SearchStepDefinition.user_search_for_something_vegetable(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3354803554,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -65,12 +65,12 @@ formatter.match({
   "location": "SearchStepDefinition.something_results_are_displayed(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 28059692,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 183915,
-  "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.Hooks.afterSeleniumTest(Hooks.java:31)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\n",
-  "status": "failed"
+  "duration": 151265128,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 10,
@@ -115,9 +115,8 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
 });
 formatter.result({
-  "duration": 343585,
-  "error_message": "java.lang.NullPointerException\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:149)\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:112)\n\tat Cucumber.Automation.Base.getDriver(Base.java:18)\n\tat stepDefinitions.SearchStepDefinition.user_is_on_greencart_landing_page(SearchStepDefinition.java:22)\n\tat ✽.Given User is on Greencart landing page(Search.feature:11)\n",
-  "status": "failed"
+  "duration": 4386706301,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -129,19 +128,22 @@ formatter.match({
   "location": "SearchStepDefinition.user_search_for_something_vegetable(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3370198211,
+  "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.add_items_to_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2168994239,
+  "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.user_proceed_to_the_checkout_page_for_purchase()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 119500388,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -153,11 +155,11 @@ formatter.match({
   "location": "SearchStepDefinition.verify_the_selected_something_items_are_displayed_in_the_checkout_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30944760,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 135513,
-  "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.Hooks.afterSeleniumTest(Hooks.java:31)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\n",
-  "status": "failed"
+  "duration": 189015338,
+  "status": "passed"
 });
 });

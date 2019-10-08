@@ -1,4 +1,4 @@
-package Cucumber.Automation;
+package CucumberUtilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +15,7 @@ public class Base {
     public static WebDriver getDriver() throws IOException {
 
         prop = new Properties();
-        FileInputStream fis = new FileInputStream(System.getProperty("/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/Cucumber/Automation/global.properties"));
+        FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/CucumberUtilities/global.properties");
         prop.load(fis);
 
         System.setProperty("webdriver.chrome.driver", "/Users/singh2_rajiv/Automation/Selenium/Drivers/chromedriver");

@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.162564">
-    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="0.162085">
-        <failure message="java.lang.NullPointerException&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:18)&#10;&#9;at stepDefinitions.SearchStepDefinition.user_is_on_greencart_landing_page(SearchStepDefinition.java:22)&#10;&#9;at ✽.Given User is on Greencart landing page(Search.feature:5)&#10;">
-            <![CDATA[Given User is on Greencart landing page.....................................failed
-When User search for "Cucumber" vegetable...................................skipped
-Then "Cucumber" results are displayed.......................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
-	at Cucumber.Automation.Base.getDriver(Base.java:18)
-	at stepDefinitions.SearchStepDefinition.user_is_on_greencart_landing_page(SearchStepDefinition.java:22)
-	at ✽.Given User is on Greencart landing page(Search.feature:5)
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="22.628669">
+    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="12.36331">
+        <system-out>
+            <![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Cucumber" vegetable...................................passed
+Then "Cucumber" results are displayed.......................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="0.000479">
-        <failure message="java.lang.NullPointerException&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:18)&#10;&#9;at stepDefinitions.SearchStepDefinition.user_is_on_greencart_landing_page(SearchStepDefinition.java:22)&#10;&#9;at ✽.Given User is on Greencart landing page(Search.feature:11)&#10;">
-            <![CDATA[Given User is on Greencart landing page.....................................failed
-When User search for "Brinjal" vegetable....................................skipped
-And Add items to cart.......................................................skipped
-And User proceed to the checkout page for purchase..........................skipped
-Then Verify the selected "Brinjal" items are displayed in the checkout page.skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
-	at Cucumber.Automation.Base.getDriver(Base.java:18)
-	at stepDefinitions.SearchStepDefinition.user_is_on_greencart_landing_page(SearchStepDefinition.java:22)
-	at ✽.Given User is on Greencart landing page(Search.feature:11)
+    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="10.265359">
+        <system-out>
+            <![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Brinjal" vegetable....................................passed
+And Add items to cart.......................................................passed
+And User proceed to the checkout page for purchase..........................passed
+Then Verify the selected "Brinjal" items are displayed in the checkout page.passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
