@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.336629">
-    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="11.690474">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="19.375572">
+    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="8.83391">
         <system-out>
             <![CDATA[Given User is on Greencart landing page.....................................passed
 When User search for "Cucumber" vegetable...................................passed
@@ -8,7 +8,7 @@ Then "Cucumber" results are displayed.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="11.646155">
+    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="10.541662">
         <system-out>
             <![CDATA[Given User is on Greencart landing page.....................................passed
 When User search for "Brinjal" vegetable....................................passed

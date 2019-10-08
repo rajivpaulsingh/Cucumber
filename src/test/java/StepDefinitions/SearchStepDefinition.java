@@ -1,7 +1,9 @@
 package StepDefinitions;
 
 import CucumberUtilities.Base;
+import PageObjects.CheckoutPage;
 import PageObjects.HomePage;
+import cucumber.api.java.cs.A;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,13 +12,12 @@ import cucumber.api.junit.Cucumber;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 @RunWith(Cucumber.class)
-public class SearchStepDefinition {
+public class SearchStepDefinition extends Base {
 
-    public WebDriver driver;
     HomePage homePage;
+    CheckoutPage checkoutPage;
 
     @Given("^User is on Greencart landing page$")
     public void user_is_on_greencart_landing_page() throws Throwable {
@@ -50,13 +51,17 @@ public class SearchStepDefinition {
     @And("^User proceed to the checkout page for purchase$")
     public void user_proceed_to_the_checkout_page_for_purchase() throws Throwable {
 
-        driver.findElement(By.xpath("//a[@class='cart-icon']//img[contains(@class,'')]")).click();
-        driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+//        driver.findElement(By.xpath("//a[@class='cart-icon']//img[contains(@class,'')]")).click();
+//        driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+        checkoutPage = new CheckoutPage(driver);
+        checkoutPage.cart().click();
+        checkoutPage.proceed().click();
     }
 
     @Then("^Verify the selected \"([^\"]*)\" items are displayed in the checkout page$")
     public void verify_the_selected_something_items_are_displayed_in_the_checkout_page(String strArg1) throws Throwable {
 
-        Assert.assertTrue(driver.findElement(By.cssSelector("p.product-name")).getText().contains(strArg1));
+//        Assert.assertTrue(driver.findElement(By.cssSelector("p.product-name")).getText().contains(strArg1));
+        Assert.assertTrue(checkoutPage.productName().getText().contains(strArg1));
     }
 }
