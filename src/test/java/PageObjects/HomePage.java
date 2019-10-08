@@ -9,14 +9,12 @@ public class HomePage {
     public WebDriver driver;
 
     public HomePage(WebDriver driver) {
-
         this.driver = driver;
     }
 
     By search = By.xpath("//input[@type='search']");
 
     public WebElement getSearch() {
-
         return driver.findElement(search);
     }
 }

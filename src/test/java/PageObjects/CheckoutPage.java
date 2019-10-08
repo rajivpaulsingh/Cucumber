@@ -18,17 +18,14 @@ public class CheckoutPage {
     By product = By.cssSelector("p.product-name");
 
     public WebElement cart() {
-
         return driver.findElement(cart);
     }
 
     public WebElement proceed() {
-
         return driver.findElement(proceed);
     }
 
     public WebElement productName() {
-
         return driver.findElement(product);
     }
 }

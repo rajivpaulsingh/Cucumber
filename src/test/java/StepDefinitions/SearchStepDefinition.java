@@ -3,7 +3,6 @@ package StepDefinitions;
 import CucumberUtilities.Base;
 import PageObjects.CheckoutPage;
 import PageObjects.HomePage;
-import cucumber.api.java.cs.A;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -31,7 +30,15 @@ public class SearchStepDefinition extends Base {
 
         homePage = new HomePage(driver);
         homePage.getSearch().sendKeys(strArg1);
-        Thread.sleep(3000);
+        Thread.sleep(2000);
+    }
+
+    @When("^User search for (.+) vegetables$")
+    public void user_search_for_vegetables(String vegetable) throws Throwable {
+
+        homePage = new HomePage(driver);
+        homePage.getSearch().sendKeys(vegetable);
+        Thread.sleep(2000);
     }
 
     @Then("^\"([^\"]*)\" results are displayed$")
@@ -51,17 +58,14 @@ public class SearchStepDefinition extends Base {
     @And("^User proceed to the checkout page for purchase$")
     public void user_proceed_to_the_checkout_page_for_purchase() throws Throwable {
 
-//        driver.findElement(By.xpath("//a[@class='cart-icon']//img[contains(@class,'')]")).click();
-//        driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
         checkoutPage = new CheckoutPage(driver);
         checkoutPage.cart().click();
         checkoutPage.proceed().click();
     }
 
-    @Then("^Verify the selected \"([^\"]*)\" items are displayed in the checkout page$")
-    public void verify_the_selected_something_items_are_displayed_in_the_checkout_page(String strArg1) throws Throwable {
+    @Then("^Verify the selected (.+) items are displayed in the checkout page$")
+    public void verify_the_selected_items_are_displayed_in_the_checkout_page(String vegetable) throws Throwable {
 
-//        Assert.assertTrue(driver.findElement(By.cssSelector("p.product-name")).getText().contains(strArg1));
-        Assert.assertTrue(checkoutPage.productName().getText().contains(strArg1));
+        Assert.assertTrue(checkoutPage.productName().getText().contains(vegetable));
     }
 }
