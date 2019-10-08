@@ -39,7 +39,7 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
 });
 formatter.result({
-  "duration": 7799848728,
+  "duration": 4790533572,
   "status": "passed"
 });
 formatter.match({
@@ -52,7 +52,7 @@ formatter.match({
   "location": "SearchStepDefinition.user_search_for_something_vegetable(String)"
 });
 formatter.result({
-  "duration": 2441686153,
+  "duration": 2363571199,
   "status": "passed"
 });
 formatter.match({
@@ -65,11 +65,11 @@ formatter.match({
   "location": "SearchStepDefinition.something_results_are_displayed(String)"
 });
 formatter.result({
-  "duration": 34225315,
+  "duration": 30901248,
   "status": "passed"
 });
 formatter.after({
-  "duration": 176732746,
+  "duration": 148210233,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -137,13 +137,6 @@ formatter.examples({
       ],
       "line": 20,
       "id": "search-and-place-the-order-for-vegetables;search-for-items-and-move-to-checkout-page;;3"
-    },
-    {
-      "cells": [
-        "Carrot"
-      ],
-      "line": 21,
-      "id": "search-and-place-the-order-for-vegetables;search-for-items-and-move-to-checkout-page;;4"
     }
   ],
   "keyword": "Examples"
@@ -197,7 +190,7 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
 });
 formatter.result({
-  "duration": 4541678042,
+  "duration": 4284294896,
   "status": "passed"
 });
 formatter.match({
@@ -210,21 +203,21 @@ formatter.match({
   "location": "SearchStepDefinition.user_search_for_vegetables(String)"
 });
 formatter.result({
-  "duration": 2326467698,
+  "duration": 2340023735,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.add_items_to_cart()"
 });
 formatter.result({
-  "duration": 2186063810,
+  "duration": 2163535230,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.user_proceed_to_the_checkout_page_for_purchase()"
 });
 formatter.result({
-  "duration": 136739369,
+  "duration": 107763434,
   "status": "passed"
 });
 formatter.match({
@@ -237,11 +230,11 @@ formatter.match({
   "location": "SearchStepDefinition.verify_the_selected_items_are_displayed_in_the_checkout_page(String)"
 });
 formatter.result({
-  "duration": 31659444,
+  "duration": 22248786,
   "status": "passed"
 });
 formatter.after({
-  "duration": 202982728,
+  "duration": 169032638,
   "status": "passed"
 });
 formatter.scenario({
@@ -293,7 +286,7 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
 });
 formatter.result({
-  "duration": 5591162016,
+  "duration": 4298493640,
   "status": "passed"
 });
 formatter.match({
@@ -306,21 +299,21 @@ formatter.match({
   "location": "SearchStepDefinition.user_search_for_vegetables(String)"
 });
 formatter.result({
-  "duration": 2293504898,
+  "duration": 2368856876,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.add_items_to_cart()"
 });
 formatter.result({
-  "duration": 2166568311,
+  "duration": 2193077799,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.user_proceed_to_the_checkout_page_for_purchase()"
 });
 formatter.result({
-  "duration": 137050609,
+  "duration": 111899576,
   "status": "passed"
 });
 formatter.match({
@@ -333,107 +326,11 @@ formatter.match({
   "location": "SearchStepDefinition.verify_the_selected_items_are_displayed_in_the_checkout_page(String)"
 });
 formatter.result({
-  "duration": 31630767,
+  "duration": 31900376,
   "status": "passed"
 });
 formatter.after({
-  "duration": 188937127,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 21,
-  "name": "Search for items and move to checkout page",
-  "description": "",
-  "id": "search-and-place-the-order-for-vegetables;search-for-items-and-move-to-checkout-page;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@SeleniumTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 11,
-  "name": "User is on Greencart landing page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 12,
-  "name": "User search for Carrot vegetables",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "Add items to cart",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "User proceed to the checkout page for purchase",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "Verify the selected Carrot items are displayed in the checkout page",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "SearchStepDefinition.user_is_on_greencart_landing_page()"
-});
-formatter.result({
-  "duration": 4494967610,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Carrot",
-      "offset": 16
-    }
-  ],
-  "location": "SearchStepDefinition.user_search_for_vegetables(String)"
-});
-formatter.result({
-  "duration": 2397626964,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SearchStepDefinition.add_items_to_cart()"
-});
-formatter.result({
-  "duration": 2174949570,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SearchStepDefinition.user_proceed_to_the_checkout_page_for_purchase()"
-});
-formatter.result({
-  "duration": 143656080,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Carrot",
-      "offset": 20
-    }
-  ],
-  "location": "SearchStepDefinition.verify_the_selected_items_are_displayed_in_the_checkout_page(String)"
-});
-formatter.result({
-  "duration": 32220441,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 207974361,
+  "duration": 167339968,
   "status": "passed"
 });
 });

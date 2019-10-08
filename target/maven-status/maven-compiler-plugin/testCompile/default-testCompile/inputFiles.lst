@@ -1,3 +1,7 @@
+/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/CucumberUtilities/Base.java
 /Users/singh2_rajiv/Selenium/Cucumber/src/test/java/CucumberOptions/TestRunner.java
-/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/stepDefinitions/StepDefinition.java
-/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/stepDefinitions/Hooks.java
+/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/PageObjects/CheckoutPage.java
+/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/StepDefinitions/Hooks.java
+/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/StepDefinitions/SearchStepDefinition.java
+/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/PageObjects/HomePage.java
+/Users/singh2_rajiv/Selenium/Cucumber/src/test/java/StepDefinitions/StepDefinition.java

@@ -18,4 +18,3 @@ Feature: Search and place the order for vegetables
     |Vegetable |
     |Brinjal |
     |Beetroot |
-    |Carrot |

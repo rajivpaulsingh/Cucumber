@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="39.738333">
-    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="10.452493">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="25.591683">
+    <testcase classname="Search and place the order for vegetables" name="Search for items and validate result" time="7.333216">
         <system-out>
             <![CDATA[Given User is on Greencart landing page.....................................passed
 When User search for "Cucumber" vegetable...................................passed
@@ -8,7 +8,7 @@ Then "Cucumber" results are displayed.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="9.425591">
+    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page" time="9.086899">
         <system-out>
             <![CDATA[Given User is on Greencart landing page.....................................passed
 When User search for Brinjal vegetables.....................................passed
@@ -18,23 +18,13 @@ Then Verify the selected Brinjal items are displayed in the checkout page...pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page 2" time="10.408854">
+    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page 2" time="9.171568">
         <system-out>
             <![CDATA[Given User is on Greencart landing page.....................................passed
 When User search for Beetroot vegetables....................................passed
 And Add items to cart.......................................................passed
 And User proceed to the checkout page for purchase..........................passed
 Then Verify the selected Beetroot items are displayed in the checkout page..passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Search and place the order for vegetables" name="Search for items and move to checkout page 3" time="9.451395">
-        <system-out>
-            <![CDATA[Given User is on Greencart landing page.....................................passed
-When User search for Carrot vegetables......................................passed
-And Add items to cart.......................................................passed
-And User proceed to the checkout page for purchase..........................passed
-Then Verify the selected Carrot items are displayed in the checkout page....passed
 ]]>
         </system-out>
     </testcase>
